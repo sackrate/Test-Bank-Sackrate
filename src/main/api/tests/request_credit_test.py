@@ -21,7 +21,7 @@ class TestRequestCreditAccount:
         api_manager.user_steps.request_credit_invalid(create_credit_user_request,request_credit_invalid_request)
 
         credit_from_db = Credit.get_credit_by_id(db_session, request_credit_invalid_request.accountId)
-        assert credit_from_db is None, "Кредит получен, ошибка"
+        assert credit_from_db is None, "Кредит получен, ошибка!"
 
 
 
