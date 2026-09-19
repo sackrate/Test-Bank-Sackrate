@@ -1,0 +1,17 @@
+.idea/
+__pycache__/
+*.py[cod]
+
+.venv/
+venv/
+
+.pytest_cache/
+
+allure-results/
+allure-report/
+
+.env
+.env.*
+
+.DS_Store
+Thumbs.db
